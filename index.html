@@ -26,6 +26,7 @@
             <li><a href="#hero" data-after="Home">Home</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#experience" data-after="Service">Experience</a></li>
             <li><a href="#projects" data-after="Projects">Projects</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
           </ul>
@@ -59,7 +60,9 @@
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>Web Developer</h2>
-        <p>I am sakshi mishra,a web developer, with front end development skills. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences.I develop websites with HTML, CSS ,javascript.Being a diligent, hardworking and result oriented , I always work towards achieving best result on each project I lay my hands on.</p>
+        <p>Hi there👋,
+I'm Sakshi Mishra, a Software Engineer from Jaipur with over 2 years of experience. I hold a B.Tech in Computer Science from Arya College of Engineering and IT, Jaipur. Currently, I work at Synoriq, where I've designed a video KYC banking app UI using Angular, developed robust banking UIs with SQL and Core Java, and built a centralized integration system with Spring Boot and PostgreSQL. I also developed an AML detection microservice and integrated critical banking APIs for payments and KYC. Throughout these projects, I've collaborated closely with clients to understand their requirements and deliver tailored, efficient solutions. I'm passionate about pushing boundaries in software development and continuously seeking opportunities that leverage my technical expertise and foster growth in a collaborative environment.
+          </p>
         <a href="#" class="cta">Download Resume</a>
       </div>
     </div>
@@ -89,14 +92,62 @@
           <h2>JAVASCRIPT</h2>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="img/python_logo.png" /></div>
-          <h2>PYTHON</h2>
+          <div class="icon"><img src="img/java_logo.jpg" /></div>
+          <h2>JAVA</h2>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/spring_logo.png" /></div>
+          <h2>SPRINGBOOT</h2>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/angular_logo.png" /></div>
+          <h2>ANGULAR</h2>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/sql_logo.jpg" /></div>
+          <h2>PostgreSQL</h2>
         </div>
       </div>
     </div>
   </section>
+  <!--Experience section-->
+  <section id="experience">
+    <div class="experience container">
+      <div class="experience-header">
+        <h1 class="section-title">Professional <span>Experience</span></h1>
+      </div>
+      <div class="all-experiences">
+        <div class="experience-item">
+          <div class="experience-info">
+            <h1>Software Engineer</h1>
+            <h2>Synoriq Research and Development Ltd.</h2>
+            <p>07/2022 - Current</p>
+              <p>Developed responsive frontend pages in Angular, resulting in a 20% boost in user engagement through enhanced user experience and faster page load times.</p>
+                <p>Developed a centralized integration system with Spring Boot and PostgreSQL for major products. Created an AWS-based file storage service and implemented HRMS functionality with automated client user synchronization using cron jobs.</p>
+                <p>Integrated RESTful web services with Spring Boot Java, enabling real-time data access from external sources and enhancing data accuracy by 15% for banking services such as payments, KYC, and loan disbursements.</p>
+                <p>Collaborated on an AML project, contributing to a robust compliance system that reduced false positives by 30%, improving the efficiency of financial monitoring and risk assessment.</p>
+              <p>Utilized Flyway in Java for database migrations, ensuring 99.9% data consistency and minimizing downtime during updates.</p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-info">
+            <h1>Data Science Intern</h1>
+            <h2>Tekoaly</h2>
+            <p>07/2021 - 12/2021</p>
+              <p>Designed and implemented an AI-powered chatbot in a career counseling forum using the Rasa framework.</p>
+              <p>Achieved a 70% reduction in response time for career-related queries, improving user experience and accessibility to counseling services.</p>
+              <p>data analytics to collect user interaction data and insights, enabling data-driven career recommendations.</p>
+              <p>Incorporated user feedback mechanisms and surveys in the forum, resulting in a 90% user satisfaction rate and continuous enhancements in the chatbot’s career guidance capabilities.</p>
+          </div>
+        </div>
+        <!-- Add more experience items as needed -->
+      </div>
+    </div>
+  </section>
+  
+  
   <!-- End Service Section -->
-  !-- Projects Section -->
+  <!-- Projects Section -->
   <section id="projects">
     <div class="projects container">
       <div class="projects-header">
@@ -105,47 +156,17 @@
       <div class="all-projects">
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>Chatbot</h2>
-            <p>Created a Chatbot using Deep Learning Technique . The chatbot is Trained on the Dataset 
-                which contains tags(intents) pattern and responses . Used a special recurrent neural network to classify which 
-                category the user’s message belongs to and then give a random response from list of responses .
-                Technologies used : Tensorflow , NLTK , tflearn , numpy , python</p>
+            <h1>ShipShop (Ecommerce website)</h1>
+            <p>Developed a comprehensive clothing e-commerce website featuring dynamic product sliders, detailed catalogs, a
+              secure payment gateway, user authentication with login/logout functionalities, and shopping carts for convenient
+              product management and checkout and resulting in enhanced user engagement.</p>
+           <p>  Created this project using Angular and Spring Boot, incorporating NgRx for state management, JWT authentication for security, a payment gateway for transactions, and MySQL for data management.</p>
+             <p> Technology used: HTML, CSS, AngularJS , Java, Springboot , MySql</p>
           </div>
           <div class="project-img">
             <img src="img/chatbot.jpg" alt="img">
           </div>
         </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Speech Emotion Recognitio</h2>
-            <p>Created a model to recognize emotion from speech using the librosa sklearn 
-                libraries and the RAVDESS dataset . Build the model using an MLPClassifier which recognize emotion from the 
-                sound files .Loaded the data , extract features from it , then split the dataset into training and testing sets . 
-                Initialize an MLPClassifier and train the model . Calculated the accuracy of the model.
-                Technologies used : Tensorflow , Librosa , keras, numpy , pandas , python </p>
-          </div>
-          <div class="project-img">
-            <img src="img/ser.jpg" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>book review website</h2>
-            <p>Created a book review application using a microframework flask , in which a user 
-                can enter a book name or author name and can see the review of the book . Created a register and login page 
-                through which a user can register and login . Used HTML , CSS and Javascript for frontend and flask and python for 
-                the backend . sqlite is used for the database 
-                Technologies used : Flask , HTML , CSS , Javascript , Python , sqlite</p>
-          </div>
-          <div class="project-img">
-            <img src="img/book.jpg">
-          </div>
-        </div>
-        
-        
       </div>
     </div>
   </section>
@@ -168,7 +189,7 @@
           <div class="icon"><img src="img/email.jpg" /></div>
           <div class="contact-info">
             <h1>Email</h1>
-            <h2>sakshimishra1480@gmail.com</h2>
+            <h2>sakshimishra141780@gmail.com</h2>
           </div>
         </div>
         <div class="contact-item">
@@ -189,16 +210,10 @@
       <h2>Your Complete Web Solution</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="#"><img src="img/linkdin.png" /></a>
+          <a href="https://www.linkedin.com/in/m-sakshi/"><img src="img/linkdin.png" /></a>
         </div>
         <div class="social-item">
-          <a href="#"><img src="img/facebook.webp" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="img/github.webp" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="img/whatsapp.webp" /></a>
+          <a href="https://github.com/sakshimishra14"><img src="img/github.webp" /></a>
         </div>
       </div>
       <p>Copyright © . All rights reserved</p>

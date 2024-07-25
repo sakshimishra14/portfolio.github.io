@@ -372,6 +372,73 @@ p {
     color: black;
 }
 /* end of srvice section */
+/* experience section */
+#experience {
+    font-family: 'Montserrat', sans-serif;
+}
+#experience .experience {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#experience .experience-header h1 {
+    margin-bottom: 50px;
+}
+
+#experience .all-experiences {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#experience .experience-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: white;
+}
+
+#experience .experience-info {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#experience .experience-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+#experience .experience-info h2 {
+    font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 22px;
+}
+
+#experience .experience-info p {
+    color: white;
+	margin-top: 15px;
+}
+
+
+
+/* Add margin between experience items */
+#experience .experience-item:not(:last-child) {
+    margin-bottom: 40px; /* Adjust this value to change the space between items */
+}
 
 /* project section */
 #projects .projects {
@@ -422,6 +489,7 @@ p {
 }
 #projects .project-info p {
 	color: white;
+	margin-top: 15px;
 }
 #projects .project-img {
 	flex-basis: 50%;
