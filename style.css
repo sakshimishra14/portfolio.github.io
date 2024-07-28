@@ -484,9 +484,12 @@ p {
 }
 #projects .project-info h2 {
 	font-size: 1.8rem;
-	font-weight: 500;
+	font-weight: 800;
 	margin-top: 10px;
+	color: wheat;
+
 }
+
 #projects .project-info p {
 	color: white;
 	margin-top: 15px;
